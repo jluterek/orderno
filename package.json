@@ -1,0 +1,42 @@
+{
+  "name": "orderno",
+  "version": "0.1.0",
+  "description": "package for creating distinct order numbers in a high volume distributed system.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rimraf lib",
+    "test": "jest",
+    "test:coverage": "jest --collect-coverage",
+    "test:debug": "node --inspect-brk -r ts-node/register node_modules/.bin/jest --runInBand",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,md,css,scss}\"",
+    "lint": "echo TODO",
+    "upgrade-deps": "npm upgrade-interactive --latest",
+    "release": "standard-version --preset angular",
+    "postrelease": "git push --follow-tags origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jluterek/orderno.git"
+  },
+  "keywords": [],
+  "author": "James Luterek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jluterek/orderno/issues"
+  },
+  "homepage": "https://github.com/jluterek/orderno#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.1",
+    "@types/node": "^13.7.0",
+    "jest": "^25.1.0",
+    "jest-mock-random": "^1.1.1",
+    "mockdate": "^3.0.2",
+    "rimraf": "^3.0.1",
+    "standard-version": "^9.0.0",
+    "ts-jest": "^25.2.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
