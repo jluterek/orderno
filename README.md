@@ -3,6 +3,7 @@
 NPM package for creating distinct order numbers in a high volume distributed system.
 
 [![NPM Version][npm-image]][npm-url]
+![TEST][https://github.com/jluterek/orderno/workflows/test/badge.svg]
 
 ### Installing
 
