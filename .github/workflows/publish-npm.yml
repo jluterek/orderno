@@ -2,7 +2,7 @@ name: NPM publish
 
 on:
   push:
-    tags: 
+    tags:
       - 'v*'
 
 jobs:
@@ -14,9 +14,9 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: yarn
-      - run: yarn build
-      - run: yarn test
+      - run: npm install
+      - run: npm build
+      - run: npm test
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
