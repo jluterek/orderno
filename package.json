@@ -1,6 +1,6 @@
 {
   "name": "@luterek/orderno",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Package for creating distinct order numbers in a high volume distributed system.",
   "main": "lib/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "lint": "echo TODO",
     "upgrade-deps": "npm upgrade-interactive --latest",
     "release": "standard-version --preset angular",
-    "postrelease": "git push --follow-tags origin master"
+    "postrelease": "git push --follow-tags origin main"
   },
   "repository": {
     "type": "git",
