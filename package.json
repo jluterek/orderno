@@ -1,6 +1,6 @@
 {
   "name": "@luterek/orderno",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Package for creating distinct order numbers in a high volume distributed system.",
   "main": "lib/index.js",
   "scripts": {
