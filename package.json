@@ -1,7 +1,7 @@
 {
-  "name": "orderno",
+  "name": "@luterek/orderno",
   "version": "0.1.0",
-  "description": "package for creating distinct order numbers in a high volume distributed system.",
+  "description": "Package for creating distinct order numbers in a high volume distributed system.",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
@@ -20,7 +20,11 @@
     "type": "git",
     "url": "git+https://github.com/jluterek/orderno.git"
   },
-  "keywords": [],
+  "keywords": [
+    "order number",
+    "ecommerce",
+    "commerce"
+  ],
   "author": "James Luterek",
   "license": "MIT",
   "bugs": {

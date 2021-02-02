@@ -1,9 +1,8 @@
 # orderno
 
-NPM package for creating distinct order numbers in a high volume distributed system.
+[NPM](https://www.npmjs.com/package/@luterek/orderno) package for creating distinct order numbers in a high volume distributed system.
 
-[![NPM Version][npm-image]][npm-url]
-![TEST][https://github.com/jluterek/orderno/workflows/test/badge.svg]
+![TESTS](https://github.com/jluterek/orderno/workflows/test/badge.svg)
 
 ### Installing
 
@@ -26,15 +25,17 @@ npm run format
 
 ## Usage
 
-TODO
+```
+
+import orderno from './orderno';
+
+orderno('2346789abcdefghjkmnpqrtuvwxyz', TimeInterval.Second, 2);
+
+```
 
 ## Authors
 
 - [James Luterek](https://github.com/jluterek)
-
-## Contributors
-
--
 
 ## License
 
