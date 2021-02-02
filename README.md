@@ -7,7 +7,7 @@
 ### Installing
 
 ```bash
-npm i -S orderno
+npm i -S @luterek/orderno
 ```
 
 ## Running the tests
@@ -27,7 +27,7 @@ npm run format
 
 ```
 
-import orderno from './orderno';
+import orderno from '@luterek/orderno';
 
 orderno('2346789abcdefghjkmnpqrtuvwxyz', TimeInterval.Second, 2);
 
